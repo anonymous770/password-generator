@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.ch-intro{
+  font-family: 'Noto Serif', serif;
+  font-weight: 700;
+}
+.cnt{
+  font-family: 'Noto Serif', serif;
+  font-weight: 400; 
+  font-size: 1.6rem;
+}
+
+
+/* ------Color---------- */
+
+.bg-blue {
+  background-color: #0d6efd;
+}
+.bg-indigo {
+  background-color: #6610f2;
+}
+.bg-purple {
+  background-color: #6f42c1;
+}
+.bg-pink {
+  background-color: #d63384;
+}
+.bg-red {
+  background-color: #dc3545;
+}
+.bg-orange {
+  background-color: #fd7e14;
+}
+.bg-yellow {
+  background-color: #ffc107;
+}
+.bg-green {
+  background-color: #198754;
+}
+.bg-teal {
+  background-color: #20c997;
+}
+.bg-cyan {
+  background-color: #0dcaf0;
+}
+.bg-black {
+  background-color: #000;
+}
+.black-grd{
+	background-color: #0cbaba;
+	background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+}
+.bg-snow{
+	background-color: #fffafa;
+}
+/* ------Text----------*/
+.fc-blue {
+  color: #0d6efd;
+}
+.fc-indigo {
+  color: #6610f2;
+}
+.fc-purple {
+  color: #6f42c1;
+}
+.fc-pink {
+  color: #d63384;
+}
+.fc-red {
+  color: #dc3545;
+}
+.fc-orange {
+  color: #fd7e14;
+}
+.fc-yellow {
+  color: #ffc107;
+}
+.fc-green {
+  background-color: #198754;
+}
+.fc-teal {
+  color: #20c997;
+}
+.fc-cyan {
+  color: #0dcaf0;
+}
+
+/* ------Color end---------- */
+
+.body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  margin-top: auto;
+  margin-inline: 0px;
+}
+.page,.hello,.info {
+  font-family: Merriweather,serif;
+}
+.serif {
+  font-family: Serif;
+}
+.sans-serif {
+  font-family: Sans-Serif;
+}
+
+/* ----- scroll-----*/
+.overflow-x {
+  height: 100%;
+  overflow-x: auto;
+}
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+/* ----- scroll end-----*/
+
+.title:hover {
+  color: #2c2c2ce6 !important;
+}
+.read:hover {
+  text-decoration: underline !important;
+  font-weight: 700 !important;
+}
+.img-hov:hover {
+  transition-duration: .3s;
+  padding: 0.6rem;
+}
